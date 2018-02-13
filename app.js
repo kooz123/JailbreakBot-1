@@ -34,4 +34,4 @@ client.registry
     })
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
